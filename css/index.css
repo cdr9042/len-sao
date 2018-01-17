@@ -1,0 +1,30 @@
+:root {
+  --font-src:'../assets/fonts'
+}
+
+#txt-slogan {
+  color: #D4479B;
+}
+
+@font-face {
+  font-family: 'utmavobold';
+  --font-url: var(--font-src) + '/utmavobold.eot';
+	src: url(var(--font-url));
+	src: local('utmavobold'), url('../assets/fonts/utmavobold.woff') format('woff'), url('../assets/fonts/utmavobold.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_40182">Text with this font applied</p> */
+.font-avobold {
+	font-family: 'utmavobold' !important;
+}
+
+@font-face {
+	font-family: 'utmavo';
+	src: url('./utmavo.eot');
+	src: local('utmavo'), url('./utmavo.woff') format('woff'), url('./utmavo.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_40183">Text with this font applied</p> */
+.font-avo {
+	font-family: 'utmavo' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
