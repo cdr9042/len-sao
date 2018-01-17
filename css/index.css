@@ -1,30 +1,69 @@
-:root {
-  --font-src:'../assets/fonts'
+#greet-section {
+  min-height: 60%;
+  min-width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../assets/img/bg1.jpg");
 }
 
-#txt-slogan {
-  color: #D4479B;
+#greet-section .video-player {
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+#greet-section .video-player > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+#greet-section .video-player iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#actor-slide img{
+  max-height: 200px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* 
+Font dùng đường dẫn ../assets/fonts/tên-font
+hiện ko có cách nào dùng variable được nếu thay cần thay hết
+*/
+@font-face {
+  font-family: 'utmavo';
+  src: url("../assets/fonts/utmavo.eot");
+  src: local("utmavo"), url("../assets/fonts/utmavo.woff") format("woff"), url("../assets/fonts/utmavo.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'utmavobold';
-  --font-url: var(--font-src) + '/utmavobold.eot';
-	src: url(var(--font-url));
-	src: local('utmavobold'), url('../assets/fonts/utmavobold.woff') format('woff'), url('../assets/fonts/utmavobold.ttf') format('truetype');
-}
-/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_40182">Text with this font applied</p> */
-.font-avobold {
-	font-family: 'utmavobold' !important;
+  src: url("../assets/fonts/utmavobold.eot");
+  src: local("utmavobold"), url("../assets/fonts/utmavobold.woff") format("woff"), url("../assets/fonts/utmavobold.ttf") format("truetype");
 }
 
-@font-face {
-	font-family: 'utmavo';
-	src: url('./utmavo.eot');
-	src: local('utmavo'), url('./utmavo.woff') format('woff'), url('./utmavo.ttf') format('truetype');
-}
-/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_40183">Text with this font applied</p> */
 .font-avo {
-	font-family: 'utmavo' !important;
+  font-family: 'utmavo' !important;
+}
+
+.font-avo .bold {
+  font-family: 'utmavobold' !important;
+}
+
+.font-s30 {
+  font-size: larger;
+}
+
+.pink-color {
+  color: #D4479B;
 }
 
 /* Font downloaded from FontsForWeb.com */

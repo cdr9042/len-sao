@@ -1,3 +1,5 @@
+//Lưu chuỗi ký tự
+
 $phonenumber = "123456789";
 function initString() {
   document.getElementById("phonenumber").innerHTML = $phonenumber;
