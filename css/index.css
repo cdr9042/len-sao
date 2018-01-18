@@ -34,7 +34,24 @@
 }
 
 #actor-slide img {
+  display:block;
   max-height: 200px;
+  z-index: 100;
+}
+
+#float-carousel-container {
+  position: relative;
+}
+
+#float-carousel {
+  background:#D4479B;
+  border: 1px;
+  
+  transform: translateY(-50%);
+  display:block;
+  position: absolute;
+  top: 50px;
+  z-index:-1;
 }
 
 .uppercase {

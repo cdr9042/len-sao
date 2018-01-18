@@ -1,4 +1,7 @@
 <html>
+<!-- 
+  Include: Owl Carousel, jQuery, Bootstrap  
+ -->
 
 <head>
   <meta charset="utf-8">
@@ -8,6 +11,8 @@
   <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../css/index.css">
   <link rel="icon" href="../assets/img/logo.png">
+  <!-- import library owl carousel & jquery -->
+  <script src="../js/import.js"></script>
   <title>Lên sao landing Page</title>
 </head>
 
@@ -61,15 +66,17 @@
   Ai cũng có thể trở thành influencer
   <br> BẰNG CÁCH LÀM TỐT VIỆC CỦA MÌNH,
   <br> mang giá trị bản thân đóng góp vào xã hội để giúp cho môi trường và mọi người xung quanh trở nên tốt đẹp hơn.
-  <br>
-  <br> LÊN SAO sẽ dành cho
-  <br>
-  <br> Những nghệ sỹ muốn công bố các tác phẩm nghệ thuật
-  <br> cho nhiều người biết đến
-  <br>
-  <div class="owl-carousel">
-    <div>test</div>
-    <div id="actor-slide"></div>
+
+  <div id="float-carousel-container">
+    <div id="float-carousel">
+      <p>LÊN SAO sẽ dành cho</p>
+      <p>Những nghệ sỹ muốn công bố các tác phẩm nghệ thuật cho nhiều người biết đến</p>
+    </div>
+    <div class="owl-carousel" id="actor-slide">
+      <!-- <div>
+        <img src='../assets/img/actor/actor-1.jpg'>
+      </div>' -->
+    </div>
   </div>
 
   <!-- PHẦN 3 TIỆN ÍCH -->
@@ -293,7 +300,7 @@
   <!--Bootstrap-->
   <script src="../node_modules/jquery/dist/jquery.js"></script>
   <script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
   <script src="../bootstrap/js/bootstrap.min.js"></script>
   <script src="../js/index.js"></script>
   <script src="../js/string.js"></script>
