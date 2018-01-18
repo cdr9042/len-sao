@@ -1,16 +1,22 @@
 //JS cho trang chủ
+import '../owl.carousel/dist/assets/owl.carousel.css';
+import $ from 'jquery';
+import 'imports?jQuery=jquery!owl.carousel';
 
-function initImage() { //chèn ảnh
+function init() { //chèn ảnh
   var html = '', img = '';
   for (var i = 1; i <= 5; i++) {
     img = '<img src=' + '../assets/img/actor/actor-' + i.toString() + '.jpg>';
     html = html + img;
   }
-  console.log(html);
   $('#actor-slide').append(html);
+  
 }
-
-document.onload(initImage());
+$(document).ready(function(){
+  init();
+  $(".owl-carousel").owlCarousel();
+});
+// document.onload(init());
 // document.addEventListener('DOMContentLoaded', function () {
 //   initString();
 // }, false);

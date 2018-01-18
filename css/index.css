@@ -1,3 +1,10 @@
+.align-items-center {
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
 #greet-section {
   min-height: 60%;
   min-width: 100%;
@@ -8,7 +15,7 @@
 }
 
 #greet-section .video-player {
-  max-width: 500px;
+  max-width: 700px;
   margin: 30px auto;
 }
 
@@ -26,7 +33,7 @@
   height: 100%;
 }
 
-#actor-slide img{
+#actor-slide img {
   max-height: 200px;
 }
 

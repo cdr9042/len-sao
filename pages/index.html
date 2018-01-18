@@ -5,30 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../css/index.css">
   <link rel="icon" href="../assets/img/logo.png">
   <title>Lên sao landing Page</title>
 </head>
 
 <body class="font-avo">
-  <div class="row header">
-    <div class="col-md-4">
-      <img src="../assets/img/logo.png">
-      <span id="txt-slogan" class="pink-color">Mang người hâm mộ đến với bạn</span>
-    </div>
-    <div class="col-md-2 col-md-offset-1">
-      <span>Cách thức làm việc của lên sao</span>
-    </div>
-    <div class="col-md-3 col-md-offset-1 bold font-s30">
-      <span>
-        <img src="../assets/img/phone-icon.png">
-        <span id="phonenumber" class="pink-color">a</span>
-      </span>
+  <div class="container-fluid header">
+    <div class="row align-items-center" style="line-height:70px">
+      <div class="col-md-5">
+        <img src="../assets/img/logo.png">
+        <span id="txt-slogan" class="pink-color">Mang người hâm mộ đến với bạn</span>
+      </div>
+      <div class="col-md-3 col-md-offset-1">
+        <span>Cách thức làm việc của lên sao</span>
+      </div>
+      <div class="col-md-3 col-md-offset-0 bold font-s30">
+        <span>
+          <img src="../assets/img/phone-icon.png">
+          <span class="phonenumber" class="pink-color">SĐT</span>
+        </span>
+      </div>
     </div>
   </div>
 
   <!-- PHẦN 1 VIDEO -->
-  <div id="greet-section" class="bold">
+  <div id="greet-section" class="bold container-fluid">
     <div class="col-md-6 mb-r">
       <div class="row" style="margin: 5px; background: rgba(255, 255, 255, 0.452);">
         <div class="col-md-offset-1 font-s30">
@@ -37,12 +40,18 @@
       </div>
       <br>
       <div class="row uppercase">
-        <div class="col-md-offset-1" style="color: white; font-size: -webkit-xxx-large">
-          <span>Mang người hâm mộ đến với bạn</span>
+        <div class="col-md-offset-1">
+          <p style="
+          color: white;
+          font-size: -webkit-xxx-large;
+          text-shadow: 0px 0px 7px #000000;
+          ">Mang người hâm mộ đến với bạn</p>
+          <button>DÙNG MIỄN PHÍ NGAY</button>
         </div>
+
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1 mb-r">
+    <div class="col-md-5 mb-r">
       <iframe class="video-player" src="https://www.youtube.com/embed/yAoLSRbwxL8" frameborder="0" allow="autoplay; encrypted-media"
         allowfullscreen></iframe>
     </div>
@@ -58,7 +67,10 @@
   <br> Những nghệ sỹ muốn công bố các tác phẩm nghệ thuật
   <br> cho nhiều người biết đến
   <br>
-  <div id="actor-slide"></div>
+  <div class="owl-carousel">
+    <div>test</div>
+    <div id="actor-slide"></div>
+  </div>
 
   <!-- PHẦN 3 TIỆN ÍCH -->
   TIỆN ÍCH VƯỢT TRỘI
@@ -69,8 +81,218 @@
   <br>
 
 
+  <div class="container-fluid">
+    <div class="col-md-5">
+      <p>Lên sao chuyên biệt</p>
+      <p>Tương tác tự nhiên</p>
+    </div>
+    <div class="col-md-6 col-md-offset-1">
+      <span>1</span>
+      <p>Lên sao dùng để tăng lượng tương tác tự nhiên đối với account Instargram thông qua đó tăng lượng follower một cách
+        tự nhiên và bền vững.</p>
+      <span>2</span>
+      <p>Lên sao giúp bạn tiếp cận khoảng 20.000 user/ tháng.</p>
+      <span>3</span>
+      <p>Lên sao sở hữu hashtag cộng đồng có tính tương tác cao.</p>
+      <span>4</span>
+      <p>Cam kết không nick ảo, không follower ảo.</p>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="hover-bt col-md-2">
+      <img src="../assets/img/icon-chucnang-1.png">
+      <p class="desc">
+        Tương tác tự nhiên</p>
+    </div>
+    <div class="hover-bt col-md-2">
+      <img src="../assets/img/icon-chucnang-2.png">
+      <p class="desc">
+        Kết nối tới đúng tập khách hàng, và người hâm mộ</p>
+    </div>
+    <div class="hover-bt col-md-2">
+      <img src="../assets/img/icon-chucnang-3.png">
+      <p class="desc">
+        Tăng lượng truy cập</p>
+    </div>
+    <div class="hover-bt col-md-2">
+      <img src="../assets/img/icon-chucnang-4.png">
+      <p class="desc">
+        Tiết kiệm và sử dụng dễ dàng</p>
+    </div>
+  </div>
+
+  <!-- PHẦN 4 THUMBNAIL -->
+  <p>Sao phải chờ ???</p>
+  <button>Bắt đầu với lên sao</button>
+
+  <!-- PHẦN 5 BẢNG GIÁ -->
+  <p>BẢNG GIÁ SẢN PHẨM</p>
+  <div class="container-fluid">
+    <div class="col-md-7">
+      <div class="row">
+        <div class="col-md-6">
+          <p id="gia-1-thang"></p>
+          <p>Dùng cho 1 account
+            <br> Tư vấn sử dụng
+            <br> Full tính năng
+            <br>
+            <p>Cập nhật miễn phí</p>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p id="gia-2-thang"></p>
+          <p>Dùng cho 1 account
+            <br> Tư vấn sử dụng
+            <br> Full tính năng
+            <p>Cập nhật miễn phí</p>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p id="gia-3-thang"></p>
+          <p>Dùng cho 1 account
+            <br> Tư vấn sử dụng
+            <br> Full tính năng
+            <p>Cập nhật miễn phí</p>
+            <p>3 tháng bảo hành</p>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p id="gia-12-thang"></p>
+          <p>Dùng cho 1 account
+            <br> Tư vấn sử dụng
+            <br> Full tính năng
+            <p>Cập nhật miễn phí</p>
+            <p>3 tháng bảo hành</p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <p id="gia-vv-thang"></p>
+      <p>
+        Dùng cho 1 account
+        <br> Tư vấn sử dụng
+        <br> Full tính năng
+        <p>Cập nhật miễn phí</p>
+        <p>Bảo hành trọn đời</p>
+      </p>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="card col-md-3">
+      <p>
+        Trending
+        <br>
+        <p>Influencer marketing</p>
+        Xu hướng năm 2018 - 2020, sự ảnh hưởng đầy quyền lực mới trong truyền thông đó chính là thông qua influencer hay còn được
+        gọi là KOLS - key opinions leaders.
+      </p>
+    </div>
+
+    <div class="card col-md-3">
+      <p>Support tool</p>
+      <p>30 công cụ hỗ trợ cho Influencer</p>
+      <p>Điểm mặt kể tên các công cụ thực sự hữu ích cho influencer sẽ giúp bạn xây dựng thương hiệu cá nhân, doanh nghiệp hiệu
+        quả về thời gian và chi phí.</p>
+    </div>
+    <div class="card col-md-3">
+      <p>Success key </p>
+      <p>Bí quyết thành công của influencer </p>
+      <p>Bật mí bí quyết thành công của các influencer.</p>
+    </div>
+  </div>
+
+  <!-- PHẦN 6 FORM -->
+
+  <div class="container-fluid">
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-md-3 control-label" for="">Họ tên</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control" id="email" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-md-3 control-label" for="">Địa chỉ email</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control" id="email" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-md-3 control-label" for="">Tài khoản Instagram</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control" id="email" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-md-3 control-label" for="">Mật khẩu Instagram</label>
+        <div class="col-md-9">
+          <input type="text" class="form-control" id="email" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-md-3 control-label" for="">Ghi chú</label>
+        <div class="col-md-9">
+          <textarea type="text" class="form-control" id="email" placeholder="Enter email"></textarea>
+        </div>
+      </div>
+      <div>
+        <input type="checkbox">
+        <span>Tôi đồng ý với điều khoản sử dụng </span>
+      </div>
+      <button type="submit" class="btn btn-default">GỬI</button>
+    </form>
+  </div>
+
+  <div class="footer container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <span>
+          <span class="phonenumber">SĐT</span> |
+          <span id="mymail">email@domain</span>
+        </span>
+      </div>
+      <div class="col-md-8">
+        <input>
+        <button>Gửi</button>
+      </div>
+    </div>
+    <div class="row">
+      <p>
+        <a>Điều khoản sử dụng</a> |
+        <a href="">Chính sách bảo mật</a> |
+        <a>Chính sách bảo hành</a> |
+        <a>Các vấn đề thường gặp của khách hàng</a>
+      </p>
+      <p>
+        <a>Về chúng tôi</a> |
+        <a>Cách làm việc của Lên sao</a>
+      </p>
+      <a href="">
+        <img src="../assets/img/icon-facebook.png">
+      </a>
+      <a href="">
+        <img src="../assets/img/icon-gplus.png">
+      </a>
+      <a href="">
+        <img src="../assets/img/icon-instagram.png">
+      </a>
+    </div>
+    <div class="">
+      <img src="../assets/img/logo.png">
+      <span>Dùng thử 15 ngày MIỄN PHÍ</span>
+    </div>
+  </div>
+
+
+
 
   <!--Bootstrap-->
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="../bootstrap/js/bootstrap.min.js"></script>
   <script src="../js/index.js"></script>
