@@ -13,7 +13,7 @@ function init() { //chèn ảnh
 // owl.owlCarousel();
 
 $(document).ready(function(){
-  init();
+  // init();
   $(".owl-carousel").owlCarousel({
     items:4,
     loop:true,

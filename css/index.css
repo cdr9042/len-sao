@@ -5,13 +5,39 @@
   align-items: center !important;
 }
 
-#greet-section {
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+
+.background-card {
   min-height: 60%;
   min-width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#greet-section {
   background-image: url("../assets/img/bg1.jpg");
+}
+
+#feature-section {
+  background-image: url("../assets/img/bg2.jpg");
 }
 
 #greet-section .video-player {
@@ -34,7 +60,7 @@
 }
 
 #actor-slide img {
-  display:block;
+  display: block;
   max-height: 200px;
   z-index: 100;
 }
@@ -44,14 +70,14 @@
 }
 
 #float-carousel {
-  background:#D4479B;
+  background: #D4479B;
   border: 1px;
-  
+  box-sizing: border-box;
   transform: translateY(-50%);
-  display:block;
+  display: block;
   position: absolute;
   top: 50px;
-  z-index:-1;
+  z-index: -1;
 }
 
 .uppercase {
@@ -76,6 +102,7 @@ hiện ko có cách nào dùng variable được nếu thay cần thay hết
 
 .font-avo {
   font-family: 'utmavo' !important;
+  font-size: initial;
 }
 
 .font-avo .bold {
@@ -88,6 +115,9 @@ hiện ko có cách nào dùng variable được nếu thay cần thay hết
 
 .pink-color {
   color: #D4479B;
+}
+.white {
+  color:white;
 }
 
 /* Font downloaded from FontsForWeb.com */
