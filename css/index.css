@@ -20,12 +20,13 @@
 .mb-50 {
   margin-bottom: 50px;
 }
+
 .pt-50 {
   padding-top: 50px;
 }
 
 .background-card {
-  min-height: 60%;
+  min-height: 100%;
   min-width: 100%;
   background-position: center;
   background-size: cover;
@@ -34,10 +35,13 @@
 
 #greet-section {
   background-image: url("../assets/img/bg1.jpg");
+  position: relative;
 }
 
-#feature-section {
-  background-image: url("../assets/img/bg2.jpg");
+#greet-section .overlay {
+  position: absolute;
+  top: 30px;
+  padding: 0px;
 }
 
 #greet-section .video-player {
@@ -69,15 +73,116 @@
   position: relative;
 }
 
-#float-carousel {
-  background: #D4479B;
+.float-box {
+  width: 50%;
+  margin: 30px auto;
+  padding: 30px;
+  background: white;
   border: 1px;
   box-sizing: border-box;
-  transform: translateY(-50%);
   display: block;
+
+  /* position: absolute;
+  top: 50px; */
+}
+
+#feature-section {
+  background-image: url("../assets/img/bg2.jpg");
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.hover-bt {
   position: absolute;
-  top: 50px;
-  z-index: -1;
+  bottom: -140px;
+  width: 22.5%;
+  height: 200px;
+  padding: 20px;
+  margin: 0px 1.25%;
+  background: white;
+}
+
+.no1 {
+  left: 0;
+}
+
+.no2 {
+  left: 25%;
+}
+
+.no3 {
+  left: 50%;
+}
+
+.no4 {
+  left: 75%;
+}
+
+.hover-bt img {
+  margin-bottom: 20px;
+}
+
+#section-4 {
+  background-image: url(../assets/img/bg3-gallery.jpg);
+  position: relative;
+  width: 100%;
+}
+
+#section-4 .overlay {
+  background: rgba(255, 255, 255, 0.849);
+  padding: 40px;
+  max-width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  align-content: center;
+}
+
+.section-5-price {
+  max-width:85%;
+  position: relative;
+  line-height: 35px;
+}
+
+.section-5-price .pack-card{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.233);
+  padding: 10px 0 20px 0;
+}
+
+.section-5-price .price {
+  color: white;
+  background: #D13092;
+}
+
+#pack-vinhvien {
+  position:absolute;
+  top: 0;
+  right:0;
+  height:100%;
+}
+
+#pack-vinhvien .price {
+  background: #994BBC;
+  width:100%;
+  height: 230px;
+  vertical-align: middle;
+  display:table-cell;
+}
+
+#section-5-2 .pack-card {
+  height: 75%;
+  overflow:hidden ;
+  padding: 20px;
+}
+
+button {
+  color: white;
+  background: #FFB727;
+  border-radius: 5px;
+}
+
+.btn-lg {
+  padding: 25px 80px;
 }
 
 .uppercase {
@@ -109,15 +214,32 @@ hiện ko có cách nào dùng variable được nếu thay cần thay hết
   font-family: 'utmavobold' !important;
 }
 
-.font-s30 {
+.font-larger {
   font-size: larger;
 }
 
-.pink-color {
+.font-xlarger {
+  font-size: x-large;
+}
+
+.font-xxlarger {
+  font-size: xx-large;
+}
+
+.font-xxxlarger {
+  font-size: -webkit-xxx-large;
+}
+
+.pink {
   color: #D4479B;
 }
+
+.purple {
+  color: #994bbc;
+}
+
 .white {
-  color:white;
+  color: white;
 }
 
 /* Font downloaded from FontsForWeb.com */
